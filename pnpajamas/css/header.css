@@ -1,4 +1,7 @@
 /* Mobile Ver*/
+.home-main {
+    z-index: 1000;
+}
 body {
     background-color: #e5d9c2;
 }
@@ -9,22 +12,61 @@ img {
 .header {
     height: 60px;
     display: grid;
-    grid-template-columns: 10% 60% 30%; 
+    grid-template-columns: 15% 15% 55% 15%; 
     border-bottom: 5px solid #4F6270;
     padding: 5px;
 }
 .header-logo {
-    padding-left: 5px;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../photos/pnpajamas.svg);
 }
 .header-logo-name {
-    text-align: left;
     padding: 5px;
 }
-.header-nav-bar {
-    text-align: right;
+.header-nav-bar-mobile {
+    display: none;
 }
-.header-nav-bar img {
-    padding: 5px;
+.nav-bar-btn {
+    width: 50px;
+    height: 50px;
+    background-image: url("../photos/bars-solid.svg"), url("../photos/close-solid.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, center left 50px;
+}
+.search-btn {
+    margin: 10px;
+    width: calc(100%-30px);
+    height: 23px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.search-btn form {
+    display: flex;
+    margin: 3px;
+}
+.search-btn input {
+    padding: 2px;
+    font-size: 10px;
+    background-color: white;
+    width: 80%;
+    position: relative;
+}
+.search-btn button {
+    margin: 2px;
+    width: 10px;
+    height: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../photos/magnifying-glass-solid.svg);
+}
+.btn-container {
+    display: flex;
+    justify-content: flex-end;
 }
 .body-center-container {
     display: flex;
@@ -67,7 +109,7 @@ img {
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     position: absolute;
-    top: 91%;
+    top: calc(100% - 55px);
     width: 100%;
     text-align: left;
 }
@@ -96,12 +138,7 @@ img {
     justify-content: start;
 }
 /* nav bar drop down */
-.header-nav-bar-li {
-    display: none;
-}
-.touched {
-    display: block;
-}
+
 @font-face {
     font-family: 'Darumadrop One';
     src: url('fonts/DarumadropOne-Regular.woff2') format('woff2'),

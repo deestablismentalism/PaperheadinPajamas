@@ -8,36 +8,45 @@
 
         <!-- css links-->
          <link rel="stylesheet" href="css/header.css">
-         <link rel="stylesheet" href="css/reset.css">
-        <!-- js links-->
-         <style src="header.js"></style>    
+         <link rel="stylesheet" href="css/reset.css">    
     </head>
 
     <body>
         <!-- whole website div-->
-        <div>
+        <div class="home-main">
             <!-- header div-->
             <div class="header">
                 <!-- logo div-->
                 <div class="header-logo">
-                    <img src="photos/pnpajamas.svg">
                 </div>
                 <!-- logoname div-->
                 <div class="header-logo-name">
                     <img src="photos/logo-name.svg">
                 </div>
-                <!-- header bar div-->
-                <div class="header-nav-bar">
-                    <img src="photos/bars-solid.svg">
+                <!-- search button-->
+                 <div>
+                    <div class="search-btn">
+                        <form>
+                            <button type="submit"></button>
+                            <input type="search" placeholder="Search...">
+                        </form>
+                    </div>
                 </div>
-                <!-- bar items-->
-                 <div class="header-nav-bar-li">
-                    <ul> <a> Home </a> </ul>
-                    <ul> <a> About </a></ul>
-                    <ul> <a> Shop </a> </ul>
-                    <ul> <a> Contact </a></ul>
+                <!-- close button-->
+                 <div class="btn-container">
+                    <div class="nav-bar-btn"></div>
                  </div>
-            
+                <!-- nav bar items-->
+                 <div >
+                    <nav class="header-nav-bar-mobile">
+                        <ul>
+                            <li> <a> Home </a> </li>
+                            <li> <a> About </a></li>
+                            <li> <a> Shop </a> </li>
+                            <li> <a> Contact </a></li>
+                        </ul>
+                    </nav>
+                 </div>
                 <!-- end of header div-->
             </div>
             <!-- homepage body -->
@@ -78,6 +87,8 @@
              </div>
         <!-- end of whole page div-->
         </div>
+        <!-- js links-->
+        <script src="header.js"></script>
         
     </body>
 </html>
