@@ -1,14 +1,19 @@
 /* Mobile Ver*/
 .home-main {
     z-index: 1000;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
 }
-body {
+html,body {
+    height: 100%;
     background-color: #f7f8f8;
+    
 }
 .header {
-    height: 60px;
+    height: 8vh;
     display: grid;
-    grid-template-columns: 15% 15% 55% 15%; 
+    grid-template-columns: 15% 15% 55% 15%;
     border-bottom: 5px solid #4F6270;
     padding: 5px;
     background-color: #e5d9c2;
@@ -20,7 +25,8 @@ body {
     background-repeat: no-repeat;
     background-image: url(../photos/pnpajamas.svg);
 }
-.header-logo-name {
+.header-logo-name img {
+    height: 60px;
     padding: 5px;
 }
 /* nav bar drop down */
@@ -41,6 +47,11 @@ body {
     text-align: center;
     border-bottom: 2px solid black;
 }
+.header-nav-bar-mobile ul li:hover {
+    background-color:aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+}
 .header-nav-bar-mobile ul li a {
     font-family: 'Poppins';
 }
@@ -54,7 +65,7 @@ body {
 }
 .search-btn {
     margin: 10px;
-    width: calc(100%-30px);
+    width: calc(100% - 30px);
     height: 23px;
     background-color: white;
     border: 1px solid black;
@@ -65,10 +76,10 @@ body {
     margin: 3px;
 }
 .search-btn input {
+    width: calc(100% - 20px);
     padding: 2px;
     font-size: 10px;
     background-color: white;
-    width: 80%;
     position: relative;
 }
 .search-btn button {
@@ -84,11 +95,20 @@ body {
     display: flex;
     justify-content: flex-end;
 }
+.body {
+    flex: 1;
+    overflow: auto;
+}
 .body-logo-background {
-    height: 30vh;
+    width: calc(100% - 20px);
+    height: calc(100vh - 525px);
+    background-image: url(../photos/logo-background.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
     margin: 10px;
 }
 .body-center-container {
+    flex: 1;
     margin-top: 10px;
 }
 .body-center-text {
@@ -120,14 +140,14 @@ body {
     color: white;
     font-family: 'Darumadrop One';
 }
-.footer {
+footer {
     background-color: #aab7bb;
+    margin-top: auto;
+}
+.footer {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    position: absolute;
-    top: calc(100% - 55px);
-    width: 100%;
     text-align: left;
 }
 .footer img {
