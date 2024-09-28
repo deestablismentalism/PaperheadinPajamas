@@ -7,6 +7,7 @@ Assigned Tasks
 # Contact HTML design - Ivy
 
 Instruction for designing
+- Content of the Web Page can be found at this link: https://docs.google.com/document/d/1b1D71fmqjAAVmfdx3LUcy-SkTz15VDy8oAAlv5Xf6Q4/edit?usp=sharing
 - Design in Mobile version: Instructions to View html file in mobile view is below
 - Fork this repository to make a copy of this repository and make your changes in your own copy of this repository: Instructions to for repository is below
 - When done, create a pull request to merge the changes with the main repository: Instruction to create a pull request is below
