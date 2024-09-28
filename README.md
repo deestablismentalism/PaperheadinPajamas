@@ -2,9 +2,9 @@
 
 Assigned Tasks
 
-About HTML & CSS design - Lander
-Shop HTML & CSS design - Hannah
-Contact HTML design - Ivy
+# About HTML & CSS design - Lander
+# Shop HTML & CSS design - Hannah
+# Contact HTML design - Ivy
 
 Instruction for designing
 - Design in Mobile version: Instructions to View html file in mobile view is below
