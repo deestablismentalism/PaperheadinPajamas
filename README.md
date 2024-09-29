@@ -1,10 +1,9 @@
 # PaperheadinPajamas
 
 Assigned Tasks
-
-# About HTML & CSS design - Lander
-# Shop HTML & CSS design - Hannah
-# Contact HTML design - Ivy
+- About HTML & CSS design - Lander
+- Shop HTML & CSS design - Hannah
+- Contact HTML design - Ivy
 
 Instruction for designing
 - Content of the Web Page can be found at this link: https://docs.google.com/document/d/1b1D71fmqjAAVmfdx3LUcy-SkTz15VDy8oAAlv5Xf6Q4/edit?usp=sharing
