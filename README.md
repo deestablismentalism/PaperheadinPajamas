@@ -79,7 +79,8 @@ Instructions for designing
 - table for inventory log
 
 Desktop Version - Aaron & Me
-wag ka na aaron ako 
+wag ka na aaron
+
 BackEnd - Me
 
 How to View HTML file in mobile view from desktop
