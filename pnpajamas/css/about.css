@@ -1,21 +1,36 @@
-.mss-center-text{
-    margin:10px;
+.body-mss-text, .body-vss-text{
+    margin: 10px;
     border: 5px solid #38454e;
     border-radius: 10px;
     text-align: center;
     background-color: #ffffffb5;
-    height: 100%;
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 10px;
 }
-.vss-center-text{
-    margin:10px;
-    border: 5px solid #38454e;
-    border-radius: 10px;
-    text-align: center;
-    background-color: #ffffffb5;
-    height: 100%;
+.body-mss-text h3, .body-vss-text h3 {
+    font-size: 24px;
+    font-family: 'DarumaDrop One';
 }
 .grid-container{
+    margin: 10px;
     display: grid;
-    grid-template-columns: 50% 50%;
-    width:750px;
+    grid-template-rows: 50% 50%;
+    padding: 10px;
+}
+p {
+    color: #4f6270;
+}
+.body-products {
+    margin: 10px;
+    padding: 10px;
+}
+.body-products h3 {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'DarumaDrop One';
+}
+.body-products p {
+    color: #4f6270;
+    text-align: justify;
 }

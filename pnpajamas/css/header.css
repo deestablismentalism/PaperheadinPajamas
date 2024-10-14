@@ -8,7 +8,7 @@ body {
 .header {
     height: 60px;
     display: grid;
-    grid-template-columns: 15% 15% 55% 15%; 
+    grid-template-columns: 15% 55% 15% 15%; 
     border-bottom: 5px solid #4F6270;
     padding: 5px;
     background-color: #e5d9c2;
@@ -20,8 +20,34 @@ body {
     background-repeat: no-repeat;
     background-image: url(../photos/pnpajamas.svg);
 }
-.header-logo-name {
-    padding: 5px;
+.header-cart {
+    margin: 10px;
+    background-image: url(../photos/cart-shopping-solid.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+.header-cart-popup-mobile {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    top:0;
+    background-color:#e5d9c2;
+}
+.cart-btn-container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+}
+.cart-close-btn {
+    margin: 10px;
+    background-image: url(../photos/close-solid.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
 }
 /* nav bar drop down */
 .header-nav-bar-mobile {
@@ -44,9 +70,10 @@ body {
 .header-nav-bar-mobile ul li a {
     font-family: 'Poppins';
 }
-.nav-bar-btn {
-    width: 50px;
-    height: 50px;
+.btn-container {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
     background-image: url("../photos/bars-solid.svg"), url("../photos/close-solid.svg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -79,14 +106,20 @@ body {
     background-repeat: no-repeat;
     background-image: url(../photos/magnifying-glass-solid.svg);
 }
-.btn-container {
-    height: 40px;
+.body-logo-name-container {
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: calc(100% - 20px);
+    height: 200px;
 }
-.body-logo-background {
-    height: 30vh;
+.body-logo-name {
     margin: 10px;
+    width: 200px;
+    height:150px;
+    background-image: url(../photos/logo-name.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .body-center-container {
     margin-top: 10px;
@@ -125,8 +158,6 @@ body {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    position: absolute;
-    top: calc(100% - 55px);
     width: 100%;
     text-align: left;
 }
