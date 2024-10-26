@@ -6,15 +6,16 @@ document.addEventListener("DOMContentLoaded", function(){
    
     menuBtn.onclick = function (){
 
-        if(isMenuOpen) {
+        if(!isMenuOpen) {
+            menuItems.style.display = "block";
+            menuBtn.style.backgroundPosition = "center left 50px, center ";
+            isMenuOpen = true;
+        }
+        else if (isMenuOpen) {
+
             menuItems.style.display = "none";
             menuBtn.style.backgroundPosition = "center, center left 50px";
-            isOpen = true;
-        }
-        else if(!isMenuOpen) {
-            menuItems.style.display = "block";
-            menuBtn.style.backgroundPosition = "center left 50px, center";
-            isOpen = false;            
+            isMenuOpen = false;            
         }
     }
 
