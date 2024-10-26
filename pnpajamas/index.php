@@ -59,8 +59,5 @@
              </div>
         <!-- end of whole page div-->
         </div>
-        <!-- js links-->
-        <script src="js/header.js"></script>
-        
     </body>
 </html>

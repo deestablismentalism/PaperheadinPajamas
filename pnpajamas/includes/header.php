@@ -27,12 +27,15 @@
   <div >
      <nav class="header-nav-bar-mobile">
          <ul>
-             <li> <a href="index.html"> Home </a> </li>
-             <li> <a href="about.html"> About </a></li>
-             <li> <a> Shop </a> </li>
-             <li> <a> Contact </a></li>
+             <li> <a href="index.php"> Home </a> </li>
+             <li> <a href="about.php"> About </a></li>
+             <li> <a href="shop.php"> Shop </a> </li>
+             <li> <a href="contacts.php"> Contact </a></li>
          </ul>
      </nav>
   </div>
  <!-- end of header div-->
 </div>
+<!-- js links -->
+<script src="js/burgerMenu.js"></script>
+<script src="js/openCart.js"></script>

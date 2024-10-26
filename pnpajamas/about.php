@@ -51,6 +51,5 @@
                      </div>
                 <!--end of about-main div-->
                 </div>
-            <script src="js/header.js"></script>
     </body>
 </html
