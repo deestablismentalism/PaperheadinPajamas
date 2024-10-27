@@ -1,0 +1,77 @@
+.body-logo-name-container {
+    display: flex;
+    
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: calc(100% - 20px);
+    height: 200px;
+}
+.body-logo-name {
+    margin: 10px;
+    width: 200px;
+    height:150px;
+    background-image: url(../photos/logo-name.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.body-center-container {
+    margin-top: 10px;
+}
+.body-center-text {
+    padding: 10px;
+}
+.body-center-text h3 {
+    text-align: center;
+    font-family: 'Darumadrop One';
+    color: #4F6270;
+    font-size: 24px;
+    margin: 10px;
+}
+.body-center-text {
+    margin: 10px;
+    border: 5px solid #38454e;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ffffffb5;
+    height: 100%;
+}
+.body-center-text p {
+    font-size: 10px;
+    margin: 10px;
+}
+.body-center-text a {
+    margin: 5px;
+    padding: 5px;
+    background-color: #4F6270;
+    color: white;
+    font-family: 'Darumadrop One';
+}
+
+@font-face {
+    font-family: 'Darumadrop One';
+    src: url('../fonts/DarumadropOne-Regular.woff2') format('woff2'),
+        url('../fonts/DarumadropOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@media (min-width:925px) {
+    .body-logo-name-container {
+        margin: auto;
+        justify-content: center;
+    }
+    .body-center-container {
+        margin: auto;
+        width: 40%;
+    }
+}
