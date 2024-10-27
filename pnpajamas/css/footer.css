@@ -1,0 +1,41 @@
+.footer {
+    background-color: #aab7bb;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    width: 100%;
+    text-align: left;
+}
+.footer img {
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+}
+.footer a {
+    padding: 5px;
+}
+.grid-item1,
+.grid-item2,
+.grid-item3,
+.grid-item4 {
+    display: flex;
+    justify-content: start;
+}
+
+@font-face {
+    font-family: 'Darumadrop One';
+    src: url('../fonts/DarumadropOne-Regular.woff2') format('woff2'),
+        url('../fonts/DarumadropOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
