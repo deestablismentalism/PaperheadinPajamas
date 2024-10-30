@@ -1,4 +1,4 @@
- <div class="header">
+<div class="header">
  <!-- logo div-->
  <div class="header-logo">
  </div>
@@ -31,6 +31,17 @@
              <li> <a href="about.php"> About </a></li>
              <li> <a href="shop.php"> Shop </a> </li>
              <li> <a href="contacts.php"> Contact </a></li>
+         </ul>
+     </nav>
+  </div>
+  <!-- nav bar items desktop-->
+  <div >
+     <nav class="header-nav-bar-desktop">
+         <ul class= "hyperlink-list">
+             <li class="linked-list"> <a href="index.php"> Home </a> </li>
+             <li class="linked-list"> <a href="about.php"> About </a></li>
+             <li class="linked-list"> <a href="shop.php"> Shop </a> </li>
+             <li class="linked-list"> <a href="contacts.php"> Contact </a></li>
          </ul>
      </nav>
   </div>

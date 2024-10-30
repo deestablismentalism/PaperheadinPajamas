@@ -129,5 +129,29 @@ body {
     font-style: normal;
     font-display: swap;
 }
-   
+
+@media (min-width:925px) {
+    .btn-container{
+        display:none;
+    }
+    .header-nav-bar-mob{
+        display: none;
+    }
+    .header {
+        grid-template-columns: 20% 35% 20% 25%;
+    }
+    .header-nav-bar-desktop{
+        display: block;
+    }
+    .hyperlink-list {
+        display: flex;
+        padding: 15px;
+    }
+    .linked-list{
+        padding-left: 30px;
+    }
+    .header-logo {
+        margin-left: 20px;
+    }
+}
 
